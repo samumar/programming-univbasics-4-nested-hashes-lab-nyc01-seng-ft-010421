@@ -39,7 +39,7 @@ def alan_kay_is_known_for
     }
 
 end
-programmer_hash[:alan_kay][:known_for]
+alan_kay_is_known_for[programmer_hash][:alan_kay][:known_for]
 
 def dennis_ritchies_language
 	programmer_hash = 
@@ -58,7 +58,7 @@ def dennis_ritchies_language
       }
     }
 end
-programmer_hash[:dennis_ritchie][:known_for]
+dennis_ritchies_language[programmer_hash][:dennis_ritchie][:known_for]
 
 def adding_matz
 # add the following information to the top level of programmer_hash
@@ -85,7 +85,7 @@ def adding_matz
     }
 
 end
-programmer_hash[yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]
+adding_matz[programmer_hash][yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]
 
 def changing_alan
   # change what Alan Kay is :known_for to the value of the alans_new_info variable. 
@@ -108,7 +108,7 @@ def changing_alan
     }
 
 end
-programmer_hash[:alan_kay][:known_for] = "GUI"
+changing_alan[programmer_hash][:alan_kay][:known_for] = "GUI"
 programmer_hash
 
 def adding_to_dennis
@@ -132,5 +132,5 @@ def adding_to_dennis
     }
 
 end
-programmer_hash[:dennis_ritchie][:languages] = ["C", "Assembly"]
+adding_to_dennis[programmer_hash][:dennis_ritchie][:languages] = ["C", "Assembly"]
 programmer_hash
