@@ -14,9 +14,9 @@ def alan_kay_is_known_for
 	
 	programmer_hash = 
  		{
-      :alan_kay => 
+      :alan_kay => {
         :known_for => "Object Orientation"
-      
+      }
     }
 
 end
