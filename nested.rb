@@ -18,9 +18,7 @@ end
 
 def dennis_ritchies_language
 	programmer_hash = 
-	"C"]
-      }
-    }
+	"C"
 end
 
 def adding_matz
