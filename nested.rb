@@ -75,11 +75,5 @@ def adding_to_dennis
   # return the entire updated hash
 
 	programmer_hash = 
- 		{
-      :dennis_ritchie => {
-        :known_for => "Unix",
-        :languages => ["C", "Assembly"]
-      }
-    }
-
+	"C"
 end
