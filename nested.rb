@@ -85,8 +85,8 @@ def adding_matz
     }
 
 end
-programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
-programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
+adding_matz[:yukihiro_matsumoto][:known_for] = "Ruby"
+adding_matz[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
 
 def changing_alan
   # change what Alan Kay is :known_for to the value of the alans_new_info variable. 
@@ -109,7 +109,7 @@ def changing_alan
     }
 
 end
-programmer_hash[:alan_kay][:known_for] = "GUI"
+changing_alan[:alan_kay][:known_for] = "GUI"
 
 def adding_to_dennis
   # add "Assembly" to Dennis Ritchie's languages array
@@ -132,4 +132,4 @@ def adding_to_dennis
     }
 
 end
-programmer_hash[:dennis_ritchie][:languages] = ["C", "Assembly"]
+adding_to_dennis[:dennis_ritchie][:languages] = ["C", "Assembly"]
